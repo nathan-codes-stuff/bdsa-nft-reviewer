@@ -61,4 +61,4 @@ To force a fresh library build: `rm -rf ../bdsa-react-components/dist && npm run
 
 ## Status
 
-v0.1 — scaffold. Not yet wired end-to-end. Verification checklist lives in `C:\Users\jeffn\.claude\plans\okay-so-i-am-unified-tower.md`.
+v0.1 — scaffold. Boots cleanly and typechecks, but has not yet been validated against a live DSA instance with real YOLO NFT annotations.
