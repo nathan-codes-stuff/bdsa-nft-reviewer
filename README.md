@@ -34,7 +34,7 @@ This app is used for Alzheimer's research. Several invariants are enforced in th
 This app depends on [`bdsa-react-components`](https://github.com/Gutman-Lab/bdsa-react-components) via a relative `file:` path because the library is not yet published to npm and `github:` installs ship an empty `dist/` (the library's `package.json#files` field excludes source). The setup script handles cloning + building the sibling library automatically.
 
 ```bash
-git clone https://github.com/<your-fork>/bdsa-nft-reviewer.git
+git clone https://github.com/nathan-codes-stuff/bdsa-nft-reviewer.git
 cd bdsa-nft-reviewer
 npm run setup     # clones + builds bdsa-react-components as a sibling, then installs this app
 npm run dev
